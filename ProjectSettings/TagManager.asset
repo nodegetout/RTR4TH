@@ -3,14 +3,24 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - CinemachineTarget
+  - ScreenCamera
+  - MainLight
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Temp_Post
   - Water
   - UI
+  - Terminal
+  - Location
+  - LookInteractor
+  - Screen
+  - Occluder
+  - Camera
+  - MainCameraOnly
   - 
   - 
   - 
@@ -18,20 +28,13 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Cockpit
+  - Cockpit_3DSkybox
+  - Cockpit_3DSkybox_BG
+  - Cockpit_Ally
+  - Cockpit_Invader
+  - Cockpit_BG
+  - Cockpit_DepthClear
   - 
   - 
   - 
@@ -43,3 +46,5 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
+  - Screen
+  - Lamps
